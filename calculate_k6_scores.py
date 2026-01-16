@@ -18,7 +18,7 @@ def calculate_k6_score(responses):
     return total
 
 def main():
-    input_file = 'responses.csv'
+    input_file = 'responses_deduplicated.csv'
     output_file = 'scores.csv'
 
     # Read responses CSV

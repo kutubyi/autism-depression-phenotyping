@@ -34,7 +34,7 @@ def calculate_srs2_score(srs2_responses):
     return total
 
 def main():
-    responses_file = 'responses.csv'
+    responses_file = 'responses_deduplicated.csv'
     scores_file = 'scores.csv'
 
     # Read responses CSV
